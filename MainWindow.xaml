@@ -1,0 +1,21 @@
+﻿<Window x:Class="eOPS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eOPS"
+        mc:Ignorable="d"
+        Title="Login eOPS" Height="450" Width="298.148">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="44,184,0,0" TextWrapping="Wrap" Text="User ID:" VerticalAlignment="Top" Width="66"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="44,211,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="66"/>
+        <Button x:Name="BtnLogin" Content="Login" HorizontalAlignment="Left" Height="20" Margin="120,250,0,0" VerticalAlignment="Top" Width="66" Click="BtnLogin_Click"/>
+        <Button x:Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Height="20" Margin="198,250,0,0" VerticalAlignment="Top" Width="57" Click="Cancel_Click"/>
+        <TextBox x:Name="TBPasswort" HorizontalAlignment="Left" Height="18" Margin="112,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" TextChanged="TBPasswort_TextChanged"/>
+        <TextBox x:Name="TBUserid" HorizontalAlignment="Left" Height="21" Margin="113,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="116" TextChanged="TBUserid_TextChanged"/>
+        <Label x:Name="UserOutput" Content="Label" HorizontalAlignment="Left" Height="23" Margin="141,329,0,0" VerticalAlignment="Top" Width="45"/>
+
+
+
+    </Grid>
+</Window>

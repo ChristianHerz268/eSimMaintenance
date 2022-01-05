@@ -1,0 +1,18 @@
+﻿<Window x:Class="eOPS.CurrentFlight"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:eOPS"
+        mc:Ignorable="d"
+        Title="CurrentFlight" Height="520.958" Width="1303.892">
+    <Grid>
+        <Label Content="Welcome to LH800 - FRA-ARN" Height="45" FontSize="20" Margin="178,23,831,351" Width="287" RenderTransformOrigin="1,1"/>
+        <Button x:Name="BtnCrewlist" Content="Crew List" HorizontalAlignment="Left" Height="38" Margin="19,153,0,0" FontSize="18" VerticalAlignment="Top" Width="110" Click="BtnCrewlist_Click"/>
+        <Button x:Name="btnTimesreportin" Content="Times Reporting" HorizontalAlignment="Left" Height="38" Margin="19,220,0,0" FontSize="18" VerticalAlignment="Top" Width="110" Click="btnTimesreportin_Click"/>
+        <Button x:Name="BtnTechnicallog" Content="Technical Log" HorizontalAlignment="Left" Height="38" Margin="19,90,0,0" FontSize="18" VerticalAlignment="Top" Width="110" Click="BtnTechnicallog_Click"/>
+        <Button x:Name="Btnnotoc" Content="NOTOC" HorizontalAlignment="Left" Height="38" Margin="19,296,0,0" FontSize="18" VerticalAlignment="Top" Width="110" Click="Btnnotoc_Click"/>
+        <Button x:Name="Btnreturn" Content="Return" HorizontalAlignment="Left" Height="25" Margin="22,425,0,0" VerticalAlignment="Top" Width="69" Click="Btnreturn_Click"/>
+
+    </Grid>
+</Window>
